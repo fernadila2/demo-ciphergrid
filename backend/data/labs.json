@@ -1,0 +1,84 @@
+[
+  {
+    "id": "lab-basics-1",
+    "title": "Lab 1: Security Hygiene",
+    "courseId": "intro-cybersecurity",
+    "difficulty": "Beginner",
+    "duration": "45 Minutes",
+    "summary": "Learn the importance of passwords, updates, backups, and safe browsing habits.",
+    "objectives": [
+      "Identify common security mistakes",
+      "Set up safer digital habits",
+      "Understand why backups matter"
+    ],
+    "steps": [
+      { "title": "Create a stronger password", "content": "Use a long password with mixed letters, numbers, and symbols. Avoid reusing the same password on multiple sites." },
+      { "title": "Turn on multi-factor authentication", "content": "Enable MFA on email and social accounts if available. This adds a second step to unauthorized access attempts." },
+      { "title": "Review software updates", "content": "Check whether your operating system and browser are updated. Updates often fix important security vulnerabilities." },
+      { "title": "Check your backup strategy", "content": "Create a backup plan for important files so data is not lost during accidental deletion or attacks." }
+    ],
+    "deliverables": [
+      "A short checklist of 5 secure habits you will apply",
+      "At least one account protected with MFA",
+      "A note of your updated backup plan"
+    ],
+    "tips": [
+      "Use a password manager when possible.",
+      "Keep your software updated regularly."
+    ]
+  },
+  {
+    "id": "lab-basics-2",
+    "title": "Lab 2: Recognizing Phishing",
+    "courseId": "intro-cybersecurity",
+    "difficulty": "Beginner",
+    "duration": "60 Minutes",
+    "summary": "Learn how to detect suspicious emails and messages before clicking links or downloading files.",
+    "objectives": [
+      "Analyze suspicious messages",
+      "Identify red flags in phishing attempts",
+      "Practice safer decision-making online"
+    ],
+    "steps": [
+      { "title": "Review example messages", "content": "Read several email examples and highlight suspicious details such as urgent wording, mismatched sender names, and strange links." },
+      { "title": "Check the website domain", "content": "Verify the domain of a link before clicking and compare it with official company or platform domains." },
+      { "title": "Report suspicious content", "content": "Use your organization’s reporting process or the platform’s phishing tools when a message looks unsafe." }
+    ],
+    "deliverables": [
+      "A list of 5 warning signs to watch for",
+      "A correctly identified phishing sample",
+      "A brief summary of how you would respond"
+    ],
+    "tips": [
+      "Do not click links directly from suspicious messages.",
+      "If unsure, verify the source through an official website or direct contact."
+    ]
+  },
+  {
+    "id": "lab-ethical-1",
+    "title": "Lab 1: Reconnaissance in a Safe Environment",
+    "courseId": "ethical-hacking-basics",
+    "difficulty": "Intermediate",
+    "duration": "90 Minutes",
+    "summary": "Practice controlled reconnaissance and learn the safe methods used in professional ethical testing.",
+    "objectives": [
+      "Understand what reconnaissance means",
+      "Plan scope carefully before testing",
+      "Use safe and approved tools in a controlled environment"
+    ],
+    "steps": [
+      { "title": "Define your scope", "content": "List the target assets, allowed methods, and time limit for your testing environment." },
+      { "title": "Collect public information", "content": "Gather public details only from safe and authorized systems. Focus on information relevant to the test goal." },
+      { "title": "Document findings", "content": "Record the data collected, any risks identified, and how those results can support remediation." }
+    ],
+    "deliverables": [
+      "A scope document",
+      "A short reconnaissance report",
+      "A list of approved next steps"
+    ],
+    "tips": [
+      "Only test assets you own or have explicit permission to assess.",
+      "Document your methods to stay ethical and accountable."
+    ]
+  }
+]
