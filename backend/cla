@@ -1,0 +1,2435 @@
+PROJECT CONTEXT
+
+I am building a professional cybersecurity learning platform inspired by the engagement model of Hack The Box, but it must have a completely original identity, design, content, naming, and implementation.
+
+The platform should feel like a premium cybersecurity startup/product, not a basic HTML template.
+
+The main concept is:
+
+DISCOVER → LEARN → PRACTICE → SOLVE → EARN XP → EARN CUBES → LEVEL UP → UNLOCK → COMPETE → RETURN
+
+The user should feel immersed and motivated to keep exploring the platform.
+
+CURRENT PROJECT NAME
+
+The name is NOT finalized yet.
+
+Names discussed:
+
+NEXORA
+
+VANTA
+
+HEXORA
+
+SHADOWGRID
+
+ROOTVAULT
+
+BYTEFORGE
+
+VOIDLABS
+
+DARKNODE
+
+NEONVAULT
+
+CIPHERX
+
+CYVORA
+
+GRIDLOCK
+
+CODEVAULT
+
+Current favorites:
+
+NEXORA
+
+VANTA
+
+HEXORA
+
+Choose the final name later; do not assume one is finalized unless I explicitly choose it.
+
+ORIGINAL MASTER PROMPT ALREADY GIVEN TO CLAUDE
+
+I already gave Claude the large Master Prompt for the project.
+
+Claude was instructed to build:
+
+Professional landing page
+
+Dashboard
+
+Courses
+
+Course modules
+
+Lessons
+
+Quizzes
+
+Labs
+
+Simulated terminal
+
+CTF-style challenges
+
+XP system
+
+Level system
+
+Cube economy
+
+Achievements
+
+Streaks
+
+Leaderboard
+
+Profile
+
+Shop
+
+Notifications
+
+Search
+
+Responsive mobile/tablet/desktop design
+
+LocalStorage persistence
+
+Premium cyber UI
+
+Animations
+
+Fictional cybersecurity labs
+
+Demo data
+
+Clean HTML/CSS/JavaScript architecture
+
+Tech stack requested:
+
+HTML5
+
+CSS3
+
+Vanilla JavaScript
+
+LocalStorage
+
+Responsive design
+
+Clean modular structure
+
+Suggested structure:
+
+/index.html
+/dashboard.html
+/courses.html
+/course.html
+/labs.html
+/lab.html
+/challenges.html
+/leaderboard.html
+/profile.html
+/shop.html
+/css/
+/js/
+/assets/
+
+IMPORTANT DESIGN DIRECTION
+
+Visual style:
+
+Dark-first
+
+Near-black background
+
+Graphite panels
+
+Electric green primary accent
+
+Cyan/violet/amber secondary accents
+
+Cybersecurity aesthetic
+
+Subtle grid
+
+Terminal-inspired UI
+
+Controlled neon/glow
+
+Premium typography
+
+Futuristic but professional
+
+Responsive
+
+Immersive
+
+Dense information architecture without becoming confusing
+
+Avoid making it look like a cheap "hacker template".
+
+It should look like a serious cybersecurity startup.
+
+CUBE SYSTEM
+
+"Cubes" are an internal virtual currency.
+
+Users earn Cubes from:
+
+Lessons
+
+Labs
+
+Challenges
+
+Daily missions
+
+Streaks
+
+Achievements
+
+Events
+
+Course completion
+
+Users can spend Cubes on virtual rewards:
+
+Profile themes
+
+Avatar frames
+
+Badges
+
+Dashboard skins
+
+Cosmetic effects
+
+Titles
+
+Profile decorations
+
+Important:
+Cubes are virtual platform points unless we later explicitly design a real-money/payment/payout system.
+
+LEARNING SYSTEM
+
+Main categories:
+
+Foundations
+
+Networking
+
+Linux
+
+Windows
+
+Command Line
+
+Python
+
+Git
+
+Web Security
+
+HTTP
+
+Authentication
+
+Sessions
+
+SQL Injection
+
+XSS
+
+CSRF
+
+Access Control
+
+API Security
+
+Offensive Security
+
+Reconnaissance
+
+Enumeration
+
+Vulnerability Assessment
+
+Exploitation Concepts
+
+Privilege Escalation
+
+Post-Exploitation Concepts
+
+Defensive Security
+
+Log Analysis
+
+Detection Engineering
+
+Incident Response
+
+Threat Hunting
+
+SIEM
+
+Advanced
+
+Cryptography
+
+Reverse Engineering Concepts
+
+Binary Analysis
+
+Malware Analysis Concepts
+
+Cloud Security
+
+Active Directory Security
+
+Each course should contain:
+
+Overview
+
+Difficulty
+
+Estimated time
+
+XP reward
+
+Cube reward
+
+Progress
+
+Modules
+
+Lessons
+
+Quizzes
+
+Practical labs
+
+Final challenge
+
+LAB SYSTEM
+
+Labs should be simulated and educational.
+
+Examples of fictional lab names:
+
+Neon Vault
+
+Black Circuit
+
+Ghost Relay
+
+Zero Trace
+
+Packet Forge
+
+Obsidian Node
+
+Red Sector
+
+Silent Proxy
+
+Labs must not attack real systems.
+
+Use fictional targets such as:
+
+target.local
+
+vault.internal
+
+lab-node.local
+
+training.local
+
+Terminal interaction should be simulated in JavaScript.
+
+GAMIFICATION
+
+Implement:
+
+XP
+
+Levels
+
+Cubes
+
+Streaks
+
+Achievements
+
+Badges
+
+Leaderboards
+
+Missions
+
+Progress bars
+
+Unlockable content
+
+Example progression:
+Level 1 → 0 XP
+Level 2 → 500 XP
+Level 3 → 1,200 XP
+Level 4 → 2,000 XP
+Level 5 → 3,000 XP
+
+The exact formula can later be improved.
+
+PROFILE
+
+Profile should contain:
+
+Avatar
+
+Username
+
+Rank
+
+Level
+
+XP
+
+Cubes
+
+Bio
+
+Skills
+
+Badges
+
+Achievements
+
+Completed labs
+
+Completed courses
+
+Challenge statistics
+
+Activity history
+
+LEADERBOARD
+
+Tabs:
+
+Global
+
+Weekly
+
+Monthly
+
+Friends
+
+Display:
+
+Rank
+
+Username
+
+Level
+
+XP
+
+Cubes
+
+Labs
+
+Challenges
+
+ACHIEVEMENTS
+
+Example achievements:
+
+First Blood
+
+Packet Runner
+
+Web Walker
+
+Night Operator
+
+Zero Day
+
+Cube Hunter
+
+Ghost
+
+All should have:
+
+Icon
+
+Name
+
+Description
+
+Locked/unlocked state
+
+Unlock date
+
+LOCALSTORAGE
+
+Persist:
+
+User profile
+
+XP
+
+Level
+
+Cubes
+
+Completed lessons
+
+Completed labs
+
+Completed challenges
+
+Achievements
+
+Streak
+
+Notifications
+
+Theme preferences
+
+Refreshing the page must not reset the demo progress.
+
+CURRENT CLAUDE STATUS
+
+I already launched the Master Prompt in Claude Free.
+
+I was told NOT to restart the project if Claude already generated it.
+
+After Claude finishes its first generation, the next step is to give Claude the follow-up prompt that says:
+
+"Continue from the existing project.
+Do NOT restart the project.
+Do NOT rewrite working components from scratch.
+First inspect the current implementation.
+Fix broken functionality.
+Improve UI.
+Make the core progression loop functional.
+Check responsive behavior.
+Check LocalStorage.
+Check XP/Cubes/Levels/Achievements.
+Remove placeholders.
+Perform final QA."
+
+The exact follow-up prompt was already provided in the previous conversation.
+
+NEXT STEP WHEN WE CONTINUE
+
+When I come back, first ask me what Claude currently generated OR ask me to paste/send the current Claude output/code/screenshots if necessary.
+
+Do NOT blindly assume the current implementation.
+
+First inspect the actual state.
+
+Then help me with the next concrete step.
+
+Priority order:
+
+Inspect Claude's current result
+
+Identify what's missing/broken
+
+Fix architecture if needed
+
+Improve visual quality
+
+Complete dashboard
+
+Complete courses
+
+Complete labs
+
+Complete challenges
+
+Complete gamification
+
+Complete profile/leaderboard/shop
+
+Mobile optimization
+
+Final QA
+
+Backend/database architecture later
+
+Deployment later
+
+IMPORTANT COMMUNICATION STYLE
+
+Talk to me mainly in Moroccan Darija / Arabizi because that's how I communicate.
+
+Be direct.
+
+Do not assume things I did not confirm.
+
+If something is uncertain, ask me.
+
+If I say Claude already built something, don't rebuild it blindly.
+
+If I send code, inspect it before proposing changes.
+
+The goal is to actually finish the project, not just discuss ideas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FULL PROJECT CONTEXT
+IMPORTANT: READ EVERYTHING BEFORE RESPONDING
+I am continuing a project from a previous ChatGPT conversation.
+
+This document contains the full context of the project, the decisions we discussed, the architecture we want, the current situation with Claude, and how ChatGPT should help me from this point onward.
+
+Do NOT assume that this document represents code that has already been implemented. It represents the intended project and the decisions made so far.
+
+When actual code, screenshots, or Claude output is provided later, inspect the real implementation and compare it against this specification.
+
+1. PROJECT IDEA
+I want to build a complete cybersecurity learning platform.
+
+The concept is inspired by the engagement model of platforms such as Hack The Box:
+
+learning
+
+practical training
+
+labs
+
+challenges
+
+progression
+
+XP
+
+rankings
+
+achievements
+
+rewards
+
+competition
+
+exploration
+
+However, this project must NOT copy Hack The Box.
+
+It must have:
+
+original branding
+
+original name
+
+original UI
+
+original visual identity
+
+original content
+
+original terminology where appropriate
+
+original layouts
+
+original fictional labs
+
+original user experience
+
+The goal is to create something that feels like a serious cybersecurity startup/product.
+
+It should NOT feel like:
+
+a simple HTML template
+
+a school project
+
+a generic SaaS dashboard
+
+a cheap "hacker" website
+
+a copy of Hack The Box
+
+It should feel like a polished, premium, immersive cybersecurity platform.
+
+2. CORE USER EXPERIENCE
+The main progression loop should be:
+
+DISCOVER
+↓
+LEARN
+↓
+PRACTICE
+↓
+SOLVE
+↓
+EARN XP
+↓
+EARN CUBES
+↓
+LEVEL UP
+↓
+UNLOCK
+↓
+COMPETE
+↓
+RETURN
+
+The user should always understand:
+
+where they are
+
+what they are learning
+
+what they should do next
+
+what they can unlock
+
+what reward they can earn
+
+how much XP they need
+
+how many Cubes they have
+
+what their rank is
+
+what progress they have made
+
+The platform should continuously give the user a reason to continue exploring.
+
+3. PROJECT NAME
+The final name has NOT been chosen yet.
+
+Names discussed:
+
+NEXORA
+
+VANTA
+
+HEXORA
+
+SHADOWGRID
+
+ROOTVAULT
+
+BYTEFORGE
+
+VOIDLABS
+
+DARKNODE
+
+NEONVAULT
+
+CIPHERX
+
+CYVORA
+
+GRIDLOCK
+
+CODEVAULT
+
+NEXUSLAB
+
+OBSIDIANX
+
+ZEROVOLT
+
+CRYPTARA
+
+CYBERNEX
+
+ROOTGRID
+
+The three names that stood out most were:
+
+NEXORA
+
+VANTA
+
+HEXORA
+
+Do NOT assume that one has been finalized.
+
+Ask me before treating one as the final brand.
+
+4. BRAND PERSONALITY
+The brand should feel:
+
+technical
+
+futuristic
+
+exclusive
+
+immersive
+
+competitive
+
+premium
+
+intelligent
+
+dark
+
+modern
+
+Possible tone:
+
+"Learn. Exploit. Master."
+
+or a similar original tagline.
+
+The exact tagline is not finalized.
+
+5. VISUAL DESIGN
+The website should use a premium cybersecurity aesthetic.
+
+Primary visual direction:
+
+dark-first
+
+near-black background
+
+deep graphite surfaces
+
+dark gray panels
+
+electric green as a primary accent
+
+cyan as a secondary accent
+
+violet as another secondary accent
+
+amber where useful
+
+high contrast
+
+subtle grid patterns
+
+subtle noise
+
+terminal-inspired elements
+
+controlled glow
+
+restrained neon
+
+premium typography
+
+monospace typography for technical elements
+
+smooth gradients
+
+professional spacing
+
+clear hierarchy
+
+Cybersecurity elements can include:
+
+terminal cursor
+
+status indicators
+
+system status
+
+scanning animations
+
+subtle scanlines
+
+grid overlays
+
+activity feeds
+
+technical labels
+
+command-line visuals
+
+network-inspired graphics
+
+progress indicators
+
+But avoid excessive effects.
+
+The website should NOT look like a cliché "green hacker movie screen".
+
+The design should remain professional and readable.
+
+6. LANDING PAGE
+The landing page should be impressive enough to immediately communicate the product.
+
+Possible hero:
+
+"CENTER. BREAK. MASTER."
+
+This is only a design direction and can be changed if necessary.
+
+Supporting message should explain:
+
+Users can learn cybersecurity through:
+
+structured courses
+
+interactive lessons
+
+practical labs
+
+simulated environments
+
+CTF-style challenges
+
+progression
+
+XP
+
+Cubes
+
+achievements
+
+leaderboards
+
+Primary CTA:
+
+START LEARNING
+
+Secondary CTA:
+
+EXPLORE LABS
+
+Landing page sections:
+
+Hero
+Include:
+
+headline
+
+supporting text
+
+CTA buttons
+
+cybersecurity visual
+
+animated terminal/activity feed
+
+subtle particles
+
+grid background
+
+platform status
+
+Statistics
+Use fictional/demo statistics only.
+
+Example:
+
+120+ Learning Modules
+80+ Practical Labs
+500+ Challenges
+25K+ Learners
+
+These should clearly be treated as demo/platform content, not real verified statistics.
+
+Featured Courses
+Show selected courses.
+
+Featured Labs
+Show selected labs.
+
+How It Works
+Example:
+
+Learn → Practice → Solve → Earn → Level Up
+
+Cube Economy
+Explain what Cubes are.
+
+Leaderboard Preview
+Show top users.
+
+Testimonials
+Use fictional/demo testimonials if included.
+
+FAQ
+Answer common questions.
+
+Final CTA
+Encourage the visitor to start learning.
+
+Footer
+Include:
+
+navigation
+
+platform links
+
+social placeholders if needed
+
+legal links
+
+copyright
+
+7. AUTHENTICATION
+Create polished interfaces for:
+
+Login
+
+Register
+
+Forgot Password
+
+Email Verification
+
+Registration Success
+
+Fields:
+
+username
+
+email
+
+password
+
+confirm password
+
+Features:
+
+password strength indicator
+
+validation
+
+terms checkbox
+
+error states
+
+success states
+
+For the frontend prototype, authentication can be simulated with LocalStorage.
+
+Do NOT claim that frontend-only authentication is secure production authentication.
+
+Backend authentication can be implemented later.
+
+8. MAIN NAVIGATION
+Main navigation should include:
+
+Dashboard
+
+Learn
+
+Labs
+
+Challenges
+
+Leaderboard
+
+Shop
+
+Profile
+
+Additional UI:
+
+Search
+
+Notifications
+
+Cube balance
+
+User avatar
+
+User level
+
+Mobile menu
+
+The navigation should be persistent where appropriate.
+
+9. DASHBOARD
+Dashboard should be the main user home.
+
+Possible greeting:
+
+"Welcome back, Operator."
+
+Dashboard should show:
+
+username
+
+rank
+
+level
+
+XP
+
+Cubes
+
+learning streak
+
+completed labs
+
+completed challenges
+
+course progress
+
+10. DASHBOARD PROGRESS
+Include:
+
+Current Course
+Show:
+
+course name
+
+current module
+
+progress %
+
+XP reward
+
+Cube reward
+
+Continue button
+
+Weekly Progress
+Show:
+
+XP earned
+
+labs completed
+
+challenges solved
+
+streak
+
+Skill Progress
+Track:
+
+Networking
+
+Linux
+
+Web Security
+
+Python
+
+Cryptography
+
+OSINT
+
+Privilege Escalation
+
+A radar chart or equivalent visualization can be used.
+
+11. DAILY MISSION
+Dashboard should contain a daily mission.
+
+Example:
+
+"Complete 1 Web Security Lab"
+
+Reward:
+
++150 XP
++50 Cubes
+
+The mission should have:
+
+progress
+
+reward
+
+completion state
+
+12. ACTIVITY FEED
+Show recent activity such as:
+
+lesson completed
+
+lab completed
+
+challenge solved
+
+achievement unlocked
+
+level up
+
+Cubes earned
+
+new course unlocked
+
+13. CUBES ECONOMY
+The platform uses a virtual currency called:
+
+CUBES
+
+Cubes are NOT automatically real money.
+
+They are internal virtual points.
+
+Users can earn Cubes by:
+
+completing lessons
+
+completing labs
+
+solving challenges
+
+daily missions
+
+streak bonuses
+
+achievements
+
+course completion
+
+community events
+
+14. CUBE WALLET
+Dashboard/profile can show:
+
+Example:
+
+12,480 CUBES
+
+Transaction history:
+
++100 — Completed Linux Fundamentals
++250 — Solved Web Challenge
++50 — Daily Mission
+-500 — Premium Lab Access
+
+The values are examples.
+
+15. CUBE SHOP
+Create a shop where users can spend Cubes.
+
+Possible rewards:
+
+profile themes
+
+avatar frames
+
+badges
+
+dashboard skins
+
+cosmetic effects
+
+titles
+
+profile decorations
+
+The shop should feel like an actual part of the platform.
+
+Users should see:
+
+item
+
+price
+
+ownership status
+
+purchase button
+
+insufficient Cubes state
+
+success state
+
+For frontend demo purposes, purchases can be stored in LocalStorage.
+
+16. COURSE SYSTEM
+Create a complete learning catalog.
+
+Categories:
+
+Foundations
+Computer Networking
+
+Linux Fundamentals
+
+Windows Fundamentals
+
+Command Line
+
+Python Basics
+
+Git & GitHub
+
+Web Security
+HTTP Fundamentals
+
+Authentication
+
+Session Security
+
+SQL Injection
+
+XSS
+
+CSRF
+
+Access Control
+
+API Security
+
+Offensive Security
+Reconnaissance
+
+Enumeration
+
+Vulnerability Assessment
+
+Exploitation Concepts
+
+Privilege Escalation
+
+Post-Exploitation Concepts
+
+Defensive Security
+Log Analysis
+
+Detection Engineering
+
+Incident Response
+
+Threat Hunting
+
+SIEM Fundamentals
+
+Advanced
+Cryptography
+
+Reverse Engineering Concepts
+
+Binary Analysis
+
+Malware Analysis Concepts
+
+Cloud Security
+
+Active Directory Security
+
+17. COURSE CARDS
+Each course card should show:
+
+title
+
+category
+
+difficulty
+
+progress
+
+estimated duration
+
+XP reward
+
+Cube reward
+
+lesson count
+
+completion state
+
+Possible difficulty:
+
+Beginner
+
+Intermediate
+
+Advanced
+
+Expert
+
+18. COURSE PAGE
+Each course should contain:
+
+course title
+
+description
+
+difficulty
+
+estimated time
+
+XP reward
+
+Cube reward
+
+completion percentage
+
+Sidebar:
+
+Module 01
+Module 02
+Module 03
+Module 04
+etc.
+
+Main lesson area:
+
+lesson title
+
+explanation
+
+examples
+
+code blocks
+
+terminal examples
+
+diagrams
+
+knowledge checks
+
+complete lesson button
+
+start lab button
+
+Navigation:
+
+Previous Lesson
+Next Lesson
+
+19. COURSE PROGRESSION
+Completing a lesson should:
+
+mark it completed
+
+update course progress
+
+award XP
+
+award Cubes when appropriate
+
+save state
+
+update dashboard
+
+potentially unlock next content
+
+Do not award rewards repeatedly if the same lesson is reopened.
+
+20. LAB SYSTEM
+Create a dedicated Labs area.
+
+Users can browse labs.
+
+Filters:
+
+difficulty
+
+category
+
+status
+
+reward
+
+newest
+
+popular
+
+Lab cards should display:
+
+lab name
+
+difficulty
+
+category
+
+estimated time
+
+XP
+
+Cube reward
+
+completion status
+
+number of completions
+
+start button
+
+21. FICTIONAL LABS
+Example original fictional lab names:
+
+Neon Vault
+
+Black Circuit
+
+Ghost Relay
+
+Zero Trace
+
+Packet Forge
+
+Obsidian Node
+
+Red Sector
+
+Silent Proxy
+
+These names are examples.
+
+More original labs can be created later.
+
+22. LAB EXPERIENCE
+Lab page should be immersive.
+
+Possible layout:
+
+LEFT:
+Lab information
+
+CENTER:
+Simulated terminal
+
+RIGHT:
+Objectives / hints / progress
+
+Terminal example:
+
+$ recon target.local
+
+scanning...
+
+service discovered
+
+port 8080 open
+
+This is purely simulated.
+
+No real-world targets.
+
+23. LAB OBJECTIVES
+Show:
+
+Objective 1
+
+Objective 2
+
+Objective 3
+
+Each objective has:
+
+locked state
+
+active state
+
+completed state
+
+Hints can be available.
+
+Potential hint cost:
+
+Cubes
+
+But only if this makes sense for the UX.
+
+24. FLAG SUBMISSION
+Users can submit fictional flags.
+
+Example format:
+
+FLAG{example_value}
+
+Correct flag:
+
+success animation
+
+XP reward
+
+Cube reward
+
+objective completion
+
+achievement checks
+
+lab completion
+
+Incorrect flag:
+
+error feedback
+
+no reward
+
+do not reveal answer
+
+25. SECURITY OF LABS
+All labs must be safe simulations.
+
+They must NOT:
+
+attack real systems
+
+scan real networks
+
+exploit real websites
+
+perform unauthorized activity
+
+Use fictional environments.
+
+Examples:
+
+target.local
+vault.internal
+training.local
+lab-node.local
+
+Terminal commands can be simulated in JavaScript.
+
+26. CHALLENGE SYSTEM
+Create a CTF-style challenge section.
+
+Categories:
+
+Web
+
+Crypto
+
+Forensics
+
+OSINT
+
+Reverse Engineering
+
+Networking
+
+Linux
+
+Programming
+
+Each challenge:
+
+title
+
+difficulty
+
+category
+
+description
+
+points
+
+Cube reward
+
+hints
+
+flag input
+
+attempt count
+
+solved state
+
+27. CHALLENGE REWARD
+Correct flag:
+
+XP
+
+Cubes
+
+solved state
+
+achievement checks
+
+leaderboard update
+
+activity feed update
+
+Incorrect flag:
+
+clear error
+
+no reward
+
+no answer reveal
+
+Prevent repeated rewards for already solved challenges.
+
+28. LEADERBOARD
+Leaderboard should include:
+
+Tabs:
+
+Global
+
+Weekly
+
+Monthly
+
+Friends
+
+Columns:
+
+rank
+
+username
+
+level
+
+XP
+
+Cubes
+
+labs
+
+challenges
+
+Include:
+
+top 3 podium
+
+current user's rank
+
+rank changes
+
+search
+
+Use fictional users for demo data.
+
+29. USER PROFILE
+Profile should show:
+
+avatar
+
+username
+
+rank
+
+level
+
+XP
+
+Cubes
+
+bio
+
+skills
+
+badges
+
+achievements
+
+completed courses
+
+completed labs
+
+challenge statistics
+
+activity history
+
+Customization:
+
+avatar
+
+profile theme
+
+title
+
+bio
+
+cosmetic items
+
+30. ACHIEVEMENT SYSTEM
+Possible achievements:
+
+First Blood
+First challenge solved.
+
+Packet Runner
+Complete networking fundamentals.
+
+Web Walker
+Complete 5 web security labs.
+
+Night Operator
+Complete a demo-specific night challenge.
+
+Zero Day
+Complete an advanced challenge.
+
+Cube Hunter
+Earn 5,000 Cubes.
+
+Ghost
+Complete a difficult lab without hints.
+
+Each achievement should have:
+
+icon
+
+title
+
+description
+
+locked/unlocked state
+
+unlock date
+
+31. XP SYSTEM
+Use an XP progression system.
+
+Example:
+
+Level 1 = 0 XP
+Level 2 = 500 XP
+Level 3 = 1,200 XP
+Level 4 = 2,000 XP
+Level 5 = 3,000 XP
+
+This can later be changed to a scalable formula.
+
+Show:
+
+current XP
+
+XP needed
+
+progress bar
+
+next level
+
+next level reward
+
+32. STREAK SYSTEM
+Create a learning streak.
+
+Example:
+
+7 DAY STREAK
+
+Show:
+
+calendar
+
+completed days
+
+missed days
+
+current streak
+
+best streak
+
+Rewards can be given at milestones.
+
+33. NOTIFICATIONS
+Notification dropdown.
+
+Examples:
+
+"New lab unlocked."
+"You earned 250 Cubes."
+"You reached Level 8."
+"Weekly leaderboard updated."
+"Achievement unlocked."
+
+Allow:
+
+mark as read
+
+mark all as read
+
+34. GLOBAL SEARCH
+Search across:
+
+courses
+
+lessons
+
+labs
+
+challenges
+
+users
+
+Search should provide instant results.
+
+35. RESPONSIVE DESIGN
+Must work at:
+
+1440px
+
+1200px
+
+1024px
+
+768px
+
+480px
+
+390px
+
+360px
+
+Desktop:
+
+sidebar
+
+multiple columns
+
+dashboard grids
+
+Mobile:
+
+hamburger menu or bottom navigation
+
+collapsible sections
+
+responsive cards
+
+horizontal tabs where appropriate
+
+touch-friendly controls
+
+no horizontal overflow
+
+36. ANIMATIONS
+Use tasteful animations:
+
+page transitions
+
+hover effects
+
+progress animations
+
+Cube collection animation
+
+XP gain
+
+level up
+
+achievement unlock
+
+terminal typing
+
+modal transitions
+
+skeleton loaders
+
+Do NOT over-animate.
+
+Performance matters.
+
+37. DEMO DATA
+The initial prototype should feel populated.
+
+Target demo content:
+
+15+ courses
+
+30+ modules
+
+40+ lessons
+
+15+ labs
+
+30+ challenges
+
+20+ achievements
+
+20+ leaderboard users
+
+notifications
+
+activity history
+
+All demo users and data must be fictional.
+
+38. LOCALSTORAGE
+Store demo state in LocalStorage.
+
+Possible keys/data:
+
+user profile
+
+XP
+
+level
+
+Cubes
+
+completed lessons
+
+completed labs
+
+completed challenges
+
+achievements
+
+streak
+
+notifications
+
+purchased cosmetics
+
+theme
+
+settings
+
+Refresh should preserve progress.
+
+39. UX MICROCOPY
+Possible UI language:
+
+INITIALIZE TRAINING
+ENTER THE GRID
+START LAB
+SUBMIT FLAG
+MISSION COMPLETE
+ACCESS GRANTED
+ACCESS DENIED
+OBJECTIVE UPDATED
+NEW SECTOR UNLOCKED
+SYSTEM STATUS: ONLINE
+MISSION FAILED
+RETRY
+CONTINUE TRAINING
+
+These are style examples, not mandatory exact wording.
+
+Keep language original and consistent.
+
+40. PROJECT STRUCTURE
+Preferred structure:
+
+/index.html
+/dashboard.html
+/courses.html
+/course.html
+/labs.html
+/lab.html
+/challenges.html
+/leaderboard.html
+/profile.html
+/shop.html
+
+/css/
+/js/
+/assets/
+
+Potential JS modules:
+
+state.js
+auth.js
+dashboard.js
+courses.js
+labs.js
+challenges.js
+leaderboard.js
+profile.js
+shop.js
+notifications.js
+storage.js
+ui.js
+
+The exact architecture can change if Claude has a better clean structure.
+
+41. CURRENT DEVELOPMENT TOOL
+I am using Claude to build the actual website.
+
+I already gave Claude a large Master Prompt containing most of the requirements above.
+
+Claude is currently working/generating the project.
+
+There is a usage limitation with Claude Free, so sometimes I need to wait several hours before I can continue with Claude.
+
+IMPORTANT:
+
+When I come back to ChatGPT later, do not assume that Claude has finished everything.
+
+I will tell you what Claude produced.
+
+I may provide:
+
+screenshots
+
+code that users naturally want to keep exploring, while remaining professional, usable, original, and technically well
+
+files
+
+Claude's response
+
+description of what happened
+
+You must inspect the actual current state before deciding what to do next.
+
+42. FOLLOW-UP PROMPT ALREADY PREPARED FOR CLAUDE
+After Claude finishes the initial build, I have a follow-up prompt designed to make Claude:
+
+inspect existing implementation
+
+avoid restarting
+
+avoid rewriting working code
+
+fix bugs
+
+improve UI
+
+fix responsive behavior
+
+verify LocalStorage
+
+verify XP
+
+verify Cubes
+
+verify levels
+
+verify achievements
+
+verify course progress
+
+verify labs
+
+verify challenges
+
+remove placeholders
+
+perform QA
+
+The main instruction is:
+
+"Continue from the existing project. Do not restart. First inspect the current implementation, then improve it incrementally."
+
+43. IMPORTANT DEVELOPMENT PRINCIPLE
+Do NOT blindly rebuild the whole project.
+
+If Claude has already produced good components:
+
+KEEP THEM.
+
+Improve them.
+
+Only refactor when necessary.
+
+If something is broken:
+
+FIX IT.
+
+If something is missing:
+
+ADD IT.
+
+If architecture is genuinely bad:
+
+EXPLAIN WHY before suggesting a major restructure.
+
+44. BACKEND
+The initial project is primarily a frontend prototype.
+
+Backend functionality has NOT been fully defined yet.
+
+Potential future backend:
+
+real authentication
+
+database
+
+users
+
+courses
+
+progress
+
+labs
+
+challenges
+
+Cubes
+
+leaderboards
+
+achievements
+
+payments if needed
+
+admin dashboard
+
+analytics
+
+Do NOT assume a backend technology unless we decide together.
+
+Possible future stack could be:
+
+Frontend:
+HTML/CSS/JS or a framework later.
+
+Backend:
+Node.js / API
+
+Database:
+PostgreSQL or another appropriate database.
+
+But this is NOT finalized.
+
+45. REAL MONEY
+Originally I said I wanted users to be able to "ربحو فيه floss".
+
+This needs clarification.
+
+The currently defined Cube system is a VIRTUAL CURRENCY.
+
+Do NOT assume users can cash out Cubes.
+
+If I later want real-money rewards, we must design separately:
+
+business model
+
+payment provider
+
+payout rules
+
+anti-fraud
+
+identity verification where legally required
+
+taxes/legal requirements
+
+backend security
+
+abuse prevention
+
+Do not silently turn Cubes into real money.
+
+46. SECURITY / LEGAL DESIGN
+This platform is intended for cybersecurity education.
+
+All labs should be safe and fictional.
+
+The project should not encourage unauthorized access to real systems.
+
+Labs can teach concepts such as:
+
+networking
+
+enumeration
+
+web vulnerabilities
+
+authentication weaknesses
+
+defensive analysis
+
+cryptography
+
+secure coding
+
+privilege escalation concepts
+
+But practical environments should remain controlled simulations.
+
+47. WHAT CHATGPT SHOULD DO WHEN I RETURN
+If I return to this conversation or provide this context in a new conversation, understand that I want to continue the project.
+
+Do NOT give me another giant explanation of the idea unless I ask.
+
+Instead:
+
+STEP 1
+Ask:
+
+"What did Claude generate so far?"
+
+If I already provide it, don't ask again.
+
+STEP 2
+Inspect:
+
+current code
+
+screenshots
+
+architecture
+
+existing features
+
+errors
+
+STEP 3
+Tell me:
+
+what is finished
+
+what is partially finished
+
+what is broken
+
+what is missing
+
+STEP 4
+Prioritize the next task.
+
+STEP 5
+If Claude needs a prompt, write the exact prompt I should paste into Claude.
+
+STEP 6
+When I return with Claude's response, analyze it and give me the next step.
+
+Continue iteratively.
+
+48. CHATGPT COMMUNICATION STYLE
+I communicate mostly in Moroccan Darija / Arabizi.
+
+Examples:
+
+"bghit..."
+"3tini..."
+"wach..."
+"db..."
+"khass..."
+"fhemti..."
+
+Respond naturally in Darija/Arabizi when appropriate.
+
+Be direct.
+
+Do not overcomplicate simple questions.
+
+When technical details are needed, explain them clearly.
+
+Do not pretend something exists if it doesn't.
+
+Do not say something is implemented unless we have evidence.
+
+Do not hallucinate.
+
+Do not assume.
+
+If you are unsure:
+
+SAY THAT YOU ARE UNSURE.
+
+If verification is needed:
+
+VERIFY.
+
+49. STRICT RULES FOR THIS PROJECT
+Follow these principles:
+
+Don't assume.
+
+Don't hallucinate.
+
+Don't invent implementation details.
+
+Don't claim to have inspected code that wasn't provided.
+
+Don't claim Claude implemented something unless I show you.
+
+Don't restart unnecessarily.
+
+Don't destroy working features.
+
+Don't copy Hack The Box.
+
+Don't turn fictional labs into real-world attack tooling.
+
+Don't treat virtual Cubes as real money without explicit confirmation.
+
+Keep the project original.
+
+Keep the UI professional.
+
+Keep the UX immersive.
+
+Keep the code maintainable.
+
+Keep responsive design a priority.
+
+Keep the final product coherent.
+
+50. CURRENT EXACT STATE
+At the moment I have already launched the original Master Prompt in Claude.
+
+Claude is working on the project.
+
+I am waiting for Claude's usage window to become available again before I can continue giving it more instructions.
+
+Therefore, when I return to ChatGPT, the most important thing is NOT to rebuild the project from this specification.
+
+The most important thing is to inspect what Claude actually produced and continue from there.
+
+51. FIRST MESSAGE I MAY SEND WHEN I RETURN
+I may simply say:
+
+"Claude salat, nkmlo."
+
+or:
+
+"Claude wsl l hna."
+
+or:
+
+"hada chno dar Claude."
+
+or:
+
+"nkmlo lproject."
+
+When that happens, understand the full context above and immediately switch into project-continuation mode.
+
+If I provide screenshots/code/output, inspect them first.
+
+52. FINAL GOAL
+The final goal is a complete, polished cybersecurity learning platform that feels like a real product.
+
+It should combine:
+
+LEARNING
++
+PRACTICE
++
+GAMIFICATION
++
+COMPETITION
++
+PROGRESSION
++
+REWARDS
++
+COMMUNITY
+
+The final experience should make users think:
+
+"I want to learn here."
+
+"I want to complete this lab."
+
+"I want to earn more XP."
+
+"I want to unlock this."
+
+"I want to climb the leaderboard."
+
+"I want to come back tomorrow."
+
+The product should feel immersive enough that users naturally want to keep exploring, while remaining professional, usable, original, and technically well structured.
+
+END OF PROJECT CONTEXT.
