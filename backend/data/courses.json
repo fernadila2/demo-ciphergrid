@@ -1,0 +1,73 @@
+[
+  {
+    "id": "intro-cybersecurity",
+    "title": "Introduction to Cybersecurity",
+    "category": "Foundation",
+    "level": "Beginner",
+    "duration": "2 Weeks",
+    "summary": "Learn the core ideas behind digital security, common threats, and safe online habits for students and professionals.",
+    "objectives": [
+      "Understand the basics of cybersecurity",
+      "Recognize common web and system threats",
+      "Use safe digital habits in practical tasks",
+      "Build confidence before moving to technical labs"
+    ],
+    "prerequisites": [
+      "Basic computer skills",
+      "No prior coding required"
+    ],
+    "modules": [
+      {
+        "title": "What is cybersecurity?",
+        "description": "Understand why cybersecurity matters and what risks exist in online systems."
+      },
+      {
+        "title": "Common attacks",
+        "description": "Explore phishing, malware, social engineering, and basic defense methods."
+      },
+      {
+        "title": "Defense basics",
+        "description": "Learn how updates, backups, passwords, and access control protect users."
+      }
+    ],
+    "labIds": [
+      "lab-basics-1",
+      "lab-basics-2"
+    ]
+  },
+  {
+    "id": "ethical-hacking-basics",
+    "title": "Ethical Hacking Basics",
+    "category": "Security",
+    "level": "Intermediate",
+    "duration": "3 Weeks",
+    "summary": "Gain a structured understanding of ethical hacking, reconnaissance, and safe testing practices.",
+    "objectives": [
+      "Understand the ethical hacking workflow",
+      "Practice reconnaissance safely",
+      "Learn how to document vulnerabilities responsibly",
+      "Apply defensive thinking to real-world scenarios"
+    ],
+    "prerequisites": [
+      "Basic networking concepts",
+      "Familiarity with operating systems"
+    ],
+    "modules": [
+      {
+        "title": "Reconnaissance",
+        "description": "Learn how attackers and defenders gather information, ethically and legally."
+      },
+      {
+        "title": "Vulnerability analysis",
+        "description": "Identify common weaknesses and understand their impact."
+      },
+      {
+        "title": "Safe testing",
+        "description": "Use controlled environments and responsible disclosure strategies."
+      }
+    ],
+    "labIds": [
+      "lab-ethical-1"
+    ]
+  }
+]
